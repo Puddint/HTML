@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reproduzir Sons</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <style>
+
+    body{
+        background-image: url("https://i.pinimg.com/736x/e4/1f/7f/e41f7fca8bb0ed57295de7d9bf3701ca.jpg");
+        background-size: 200px;
+        background-position: center;
+        background-color: rgb(38, 35, 44);
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        
+    }
+    button{
+        background-color: green;
+        color: white;
+        margin-top: 150px;
+        font-size: 100px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <video controls="" autoplay="" name="media1" id="media1" style="display: none;">
+    <source src="https://hinos-times.com.br/wp-content/uploads/2021/02/hino-nacional-brasileiro.mp3" type="audio/mpeg">
+  </video>
+  <audio controls="" autoplay loop id="audio1" style="display: none;">
+  	<source src="https://memes.casa/audios/brasil-sil-sil-rede-globo.mp3" type="audio/MP3">
+	</audio>
+  <audio controls="" autoplay loop id="audio2" style="display: none;">
+  	<source src="https://memes.casa/audios/bora-bill.mp3" type="audio/MP3">
+	</audio>
+  <div>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+    <br><button onclick="Onpressed()">CLIQUE AQUI!</button>
+  </div>
+  <script>
+    function Onpressed(){
+      play('https://memes.casa/audios/bora-bill.mp3')
+      play('https://memes.casa/audios/bora-bill.mp3')
+      play('https://memes.casa/audios/bora-bill.mp3')
+    }
+
+  </script>
+</html>
